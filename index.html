@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Image Slider</title>
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-preview">
+            <div id="left-btn">
+                <i class="fas fa-chevron-left" onclick="previous();"></i>
+            </div>
+
+            <div class="large-img">
+                <img id="0" class="slider-image" src="" alt="">
+            </div>
+
+            <div id="right-btn">
+                <i class="fas fa-chevron-right" onclick="next();"></i>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <img id="1" class="small-img" onclick="preview(this);" src="img/1.jpg" alt="">
+            <img id="2" class="small-img" onclick="preview(this);" src="img/2.jpg" alt="">
+            <img id="3" class="small-img" onclick="preview(this);" src="img/3.jpg" alt="">
+            <img id="4" class="small-img" onclick="preview(this);" src="img/4.jpg" alt="">
+            <img id="5" class="small-img" onclick="preview(this);" src="img/5.jpg" alt="">
+            <img id="6" class="small-img" onclick="preview(this);" src="img/1.jpg" alt="">
+            <img id="7" class="small-img" onclick="preview(this);" src="img/2.jpg" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
